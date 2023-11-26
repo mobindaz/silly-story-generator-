@@ -31,8 +31,9 @@ function generatePersonalStory() {
         Along the way, you've ${action2} ${element2} and faced ${element3} with resilience.
         Your life is a beautiful tapestry woven with moments of ${action3} ${element3}.
         Each step is a chapter, and the adventure continues.
+        
         Sincerely,
-        Your Personal Story Generator`;
+        Story Generator`;
 
     document.getElementById('personal-story-container').innerText = personalStory;
 }
