@@ -1,18 +1,43 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    background-image: url('https://images.app.goo.gl/7tCYupaWs1NeiDCo8'); /* Replace 'jungle.jpg' with your jungle image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+}
+
+h1 {
+    margin: 0;
 }
 
 #silly-story-container {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff; /* White border for better visibility */
     border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for better readability */
 }
 
 button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
 }
