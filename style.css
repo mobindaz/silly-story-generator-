@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('nature.jpg'); /* Replace 'nature.jpg' with your nature image file */
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image file */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,15 +19,17 @@ h1 {
     margin: 0;
 }
 
-#life-story-container {
+label {
     margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
 }
 
-button {
+#name-input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#generate-btn {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
@@ -38,6 +40,14 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+#generate-btn:hover {
     background-color: #45a049;
+}
+
+#personal-story-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
