@@ -1,55 +1,20 @@
- <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image file */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-        }
-
-        header {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        label {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-
-        #name-input {
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        #generate-btn {
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-
-        #generate-btn:hover {
-            background-color: #45a049;
-        }
-
-        #personal-story-container {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-    </style>
+body {
+    font-family: helvetica, sans-serif;
+    width: 350px;
+}
+label {
+    font-weight: bold;  
+}
+div {
+    padding-bottom: 20px;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+}
+p {
+    background: #FFC125;
+    color: #5E2612;
+    padding: 10px;
+    visibility: hidden;
+}
