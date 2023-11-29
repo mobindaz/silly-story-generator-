@@ -3,73 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Story Generator</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-image: url('background.jpg'); /* Replace 'background.jpg' with your background image file */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: white;
-        }
-
-        header {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        label {
-            margin-top: 20px;
-            font-size: 16px;
-        }
-
-        #name-input {
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        #generate-btn {
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-
-        #generate-btn:hover {
-            background-color: #45a049;
-        }
-
-        #personal-story-container {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #fff;
-            border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-    </style>
+    <title>Silly Story</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Story Generator</h1>
-    </header>
-    <label for="name-input">Enter your name: </label>
-    <input type="text" id="name-input" placeholder="Enter name">
-
-    <button id="generate-btn">Generate Story</button>
-    <div id="personal-story-container"></div>
-
-    <script src="script.js"></script>
+    <div>
+        <label for="customname">Enter custom name:</label>
+        <input id="customname" type="text" placeholder="">
+      </div>
+      <div>
+        <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+        <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+      </div>
+      <div>
+        <button class="randomize">Generate random story</button>
+      </div>
+      <p class="story"></p>
+    <script src="index.js"></script>
 </body>
 </html>
